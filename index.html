@@ -1,0 +1,1684 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AirCool Pro - Dịch Vụ Máy Lạnh & Điện Lạnh Chuyên Nghiệp</title>
+  <meta name="description"
+    content="Chuyên vệ sinh, lắp đặt, di dời, sửa chữa máy lạnh gia đình và công nghiệp. Thợ giỏi có chứng chỉ, có mặt sau 30 phút, bảo hành 6-12 tháng, giá minh bạch.">
+  <meta name="theme-color" content="#0891b2">
+
+  <!-- Google Fonts: Poppins (Headings) & Open Sans (Body) as defined in MASTER.md -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&family=Poppins:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- ==========================================================================
+       TOP ANNOUNCEMENT BAR
+       ========================================================================== -->
+  <div class="top-bar" role="region" aria-label="Thông báo khẩn cấp">
+    <div class="container top-bar-inner">
+      <ul class="top-bar-items">
+        <li class="top-bar-item">
+          <!-- Clock SVG -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
+          </svg>
+          <span>Thời gian phục vụ: <strong>7:30 - 21:00</strong> (Cả Thứ 7, CN & Lễ)</span>
+        </li>
+
+      </ul>
+      <ul class="top-bar-items">
+        <li class="top-bar-item">
+          <!-- Shield SVG -->
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+            stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+          </svg>
+          <span>Bảo hành dịch vụ <strong>6 - 12 tháng</strong></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="header" id="navbar">
+    <div class="container navbar">
+      <a href="#" class="brand-logo" aria-label="Trang chủ AirCool Pro">
+        <div class="brand-logo-icon">
+          <!-- Snowflake SVG -->
+          <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="12" y1="2" x2="12" y2="22"></line>
+            <path d="m17 7-5 5-5-5"></path>
+            <path d="m17 17-5-5-5 5"></path>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="m7 7 5 5-5 5"></path>
+            <path d="m17 7-5 5 5 5"></path>
+          </svg>
+        </div>
+        <span>AirCool<span>Pro</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav aria-label="Chính">
+        <ul class="nav-links">
+          <li><a href="#services" class="nav-link active">Dịch Vụ</a></li>
+          <li><a href="#compare" class="nav-link">Trước & Sau</a></li>
+          <li><a href="#calculator" class="nav-link">Tính Giá Ngay</a></li>
+          <li><a href="#process" class="nav-link">Quy Trình</a></li>
+          <li><a href="#pricing" class="nav-link">Bảng Giá</a></li>
+          <li><a href="#faq" class="nav-link">Hỏi Đáp</a></li>
+        </ul>
+      </nav>
+
+      <!-- CTA & Hotline -->
+      <div class="nav-actions">
+        <div class="hotline-badge">
+          <span class="hotline-sub">Hỗ trợ 24/7</span>
+          <a href="https://zalo.me/0968831027" class="hotline-num" aria-label="Nhắn Zalo 0968.831.027" target="_blank">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            Zalo: 0968.831.027
+          </a>
+        </div>
+        <button class="btn btn-cta btn-sm" onclick="openBookingModal('Tất cả dịch vụ')"
+          aria-label="Mở bảng đặt lịch dịch vụ máy lạnh">
+          <!-- Calendar SVG -->
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          Đặt Lịch Nhanh
+        </button>
+        <button class="mobile-menu-btn" id="mobileMenuOpen" aria-label="Mở menu điều hướng trên điện thoại">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer-overlay" id="mobileDrawerOverlay"></div>
+  <aside class="mobile-drawer" id="mobileDrawer" aria-label="Menu điện thoại">
+    <div style="display:flex; justify-content:space-between; align-items:center;">
+      <span class="brand-logo" style="font-size:1.2rem;">AirCool<span>Pro</span></span>
+      <button class="modal-close-btn" id="mobileMenuClose" aria-label="Đóng menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+    <ul class="mobile-nav-links">
+      <li><a href="#services" class="mobile-nav-item">Dịch Vụ Máy Lạnh</a></li>
+      <li><a href="#compare" class="mobile-nav-item">Hiệu Quả Vệ Sinh</a></li>
+      <li><a href="#calculator" class="mobile-nav-item">Tính Giá Tức Thì</a></li>
+      <li><a href="#process" class="mobile-nav-item">Quy Trình Chuẩn</a></li>
+      <li><a href="#pricing" class="mobile-nav-item">Bảng Giá Trọn Gói</a></li>
+      <li><a href="#faq" class="mobile-nav-item">Hỏi & Đáp</a></li>
+    </ul>
+    <div style="margin-top:auto; padding-top:20px; border-top:1px solid var(--color-border);">
+      <button class="btn btn-cta" style="width:100%;" onclick="openBookingModal('Tư vấn nhanh')">
+        Đặt Lịch Ngay
+      </button>
+      <a href="https://zalo.me/0968831027" class="btn btn-outline" style="width:100%; margin-top:10px;" target="_blank">
+        Zalo 0968.831.027
+      </a>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero" id="home">
+    <div class="hero-decor" aria-hidden="true"></div>
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-pill">
+          <span class="hero-pill-dot" aria-hidden="true"></span>
+          <span>Dịch Vụ Điện Lạnh Uy Tín #1 Khu Vực</span>
+        </div>
+        <h1 class="hero-title">
+          Chuyên Sâu <span class="highlight">Bảo Dưỡng, Lắp Đặt & Sửa Chữa</span> Máy Lạnh Tận Nơi
+        </h1>
+        <p class="hero-description">
+          Đem lại không gian mát lạnh trong lành cho ngôi nhà của bạn. Đội ngũ thợ giàu kinh nghiệm, đồ nghề chuyên
+          dụng, quy trình chuẩn mực, báo giá minh bạch trước khi làm.
+        </p>
+
+        <div class="hero-actions">
+          <button class="btn btn-cta btn-lg" onclick="openBookingModal('Vệ sinh máy lạnh')"
+            aria-label="Đặt lịch dịch vụ máy lạnh ngay">
+            <!-- Calendar Icon -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            Đặt Lịch Có Mặt Sau 30P
+          </button>
+          <a href="#calculator" class="btn btn-outline btn-lg" aria-label="Xem tính toán chi phí dịch vụ">
+            <!-- Calculator SVG -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <rect x="4" y="2" width="16" height="20" rx="2"></rect>
+              <line x1="8" y1="6" x2="16" y2="6"></line>
+              <line x1="16" y1="14" x2="16" y2="18"></line>
+              <path d="M16 10h.01"></path>
+              <path d="M12 10h.01"></path>
+              <path d="M8 10h.01"></path>
+              <path d="M12 14h.01"></path>
+              <path d="M8 14h.01"></path>
+              <path d="M12 18h.01"></path>
+              <path d="M8 18h.01"></path>
+            </svg>
+            Ước Tính Chi Phí
+          </a>
+        </div>
+
+        <!-- Trust Badges (Trust & Authority Style from MASTER.md) -->
+        <div class="trust-badges-row">
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <!-- Certified Badge SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 15l-2 5l9-11h-7l2-5l-9 11h7z"></path>
+              </svg>
+            </div>
+            <div class="trust-item-text">
+              <span class="trust-item-title">Thợ Có Chứng Chỉ</span>
+              <span class="trust-item-desc">Đào tạo chuẩn kỹ thuật</span>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <!-- Shield Check SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <polyline points="9 12 11 14 15 10"></polyline>
+              </svg>
+            </div>
+            <div class="trust-item-text">
+              <span class="trust-item-title">Bảo Hành Dài Hạn</span>
+              <span class="trust-item-desc">6 - 12 tháng tận nhà</span>
+            </div>
+          </div>
+
+          <div class="trust-item">
+            <div class="trust-item-icon">
+              <!-- Transparent Price SVG -->
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="12" cy="12" r="10"></circle>
+                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
+                <line x1="12" y1="6" x2="12" y2="18"></line>
+              </svg>
+            </div>
+            <div class="trust-item-text">
+              <span class="trust-item-title">Không Phát Sinh</span>
+              <span class="trust-item-desc">Báo giá rõ trước khi làm</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual -->
+      <div class="hero-media-wrapper">
+        <div class="hero-image-frame">
+          <img src="assets/images/firstimage.jpg"
+            alt="Kỹ thuật viên chuyên nghiệp AirCool Pro đang bảo dưỡng máy lạnh cho gia đình" width="600" height="430"
+            loading="eager">
+        </div>
+
+        <!-- Floating Metric Box -->
+        <div class="hero-floating-stat">
+          <div class="hero-stat-badge">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <div>
+            <div class="hero-stat-val">28,500+</div>
+            <div class="hero-stat-lbl">Máy lạnh đã vệ sinh & phục vụ hài lòng</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CORE SERVICES SECTION (Cleaning, Installing, Reinstalling, Repairing, etc.)
+       ========================================================================== -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dịch Vụ Toàn Diện</span>
+        <h2 class="section-title">Giải Pháp Máy Lạnh Chuyên Nghiệp</h2>
+        <p class="section-subtitle">
+          Từ bảo trì định kỳ, tháo lắp di dời tới sửa chữa mạch vi xử lý cao cấp. Mọi công đoạn đều tuân thủ quy chuẩn
+          kỹ thuật của hãng.
+        </p>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="service-filters" role="tablist" aria-label="Bộ lọc dịch vụ">
+        <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Tất Cả Dịch Vụ</button>
+        <button class="filter-btn" data-filter="cleaning" role="tab" aria-selected="false">Vệ Sinh & Diệt Khuẩn</button>
+        <button class="filter-btn" data-filter="install" role="tab" aria-selected="false">Lắp Đặt Máy Mới</button>
+        <button class="filter-btn" data-filter="reinstall" role="tab" aria-selected="false">Tháo Lắp & Di Dời</button>
+        <button class="filter-btn" data-filter="repair" role="tab" aria-selected="false">Sửa Chữa Sự Cố</button>
+        <button class="filter-btn" data-filter="gas" role="tab" aria-selected="false">Bơm Gas Chuẩn Hãng</button>
+      </div>
+
+      <!-- Services Grid -->
+      <div class="services-grid" id="servicesGrid">
+
+        <!-- Service 1: Cleaning -->
+        <article class="service-card" data-category="cleaning">
+          <div class="service-card-banner">
+            <img src="assets/images/cleanning.jpg"
+              alt="Vệ sinh máy lạnh bằng máy xịt nước áp lực cao và bọc máng hứng chuyên dụng" loading="lazy">
+            <div class="service-card-banner-icon" aria-hidden="true">
+              <!-- Water droplet SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2.69l5.66 5.66a8 8 0 1 1-11.31 0z"></path>
+              </svg>
+            </div>
+            <span class="service-badge-popular">Khuyên Dùng Định Kỳ</span>
+          </div>
+          <div class="service-card-body">
+            <span class="service-category-tag">Bảo Dưỡng Chuyên Sâu</span>
+            <h3 class="service-title">Vệ Sinh Máy Lạnh Chuyên Nghiệp</h3>
+            <p class="service-excerpt">
+              Làm sạch dàn lạnh và dàn nóng bằng máy xịt áp lực có máng che chắn không văng bẩn ra tường nhà. Khử khuẩn
+              nấm mốc triệt để.
+            </p>
+            <ul class="service-checklist">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Xịt rửa dàn lạnh, lồng sóc quạt & lưới lọc
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Vệ sinh dàn nóng bên ngoài tản nhiệt tốt
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Thông tắc đường ống thoát nước thải
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Đo kiểm dòng điện & áp suất gas miễn phí
+              </li>
+            </ul>
+            <div class="service-card-footer">
+              <div class="service-price-block">
+                <span class="service-price-label">Giá trọn gói từ</span>
+                <div>
+                  <span class="service-price-amount">200.000₫</span>
+                  <span class="service-price-unit">/máy</span>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="openBookingModal('Vệ sinh máy lạnh')">
+                Đặt Dịch Vụ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 2: Installing -->
+        <article class="service-card" data-category="install">
+          <div class="service-card-banner">
+            <img src="assets/images/installing.jpg" alt="Kỹ thuật viên đang lắp đặt máy lạnh mới đúng kỹ thuật"
+              loading="lazy">
+            <div class="service-card-banner-icon" aria-hidden="true">
+              <!-- Tool / Wrench SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-category-tag">Lắp Đặt Mới</span>
+            <h3 class="service-title">Lắp Đặt Máy Lạnh</h3>
+            <p class="service-excerpt">
+              Khảo sát vị trí lắp đặt thẩm mỹ, tối ưu gió mát. Sử dụng ống đồng đúng độ dày tiêu chuẩn, hút chân không
+              sạch ẩm trước khi vận hành.
+            </p>
+            <ul class="service-checklist">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bắt giá treo dàn lạnh thăng bằng thủy chuẩn
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Loe ống đồng bọc gen cách nhiệt chống đọng sương
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Hút chân không đường ống chuyên dụng 15-20 phút
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bảo hành mối nối ống đồng & lắp đặt 12 tháng
+              </li>
+            </ul>
+            <div class="service-card-footer">
+              <div class="service-price-block">
+                <span class="service-price-label">Công lắp đặt từ</span>
+                <div>
+                  <span class="service-price-amount">400.000₫</span>
+                  <span class="service-price-unit">/bộ</span>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="openBookingModal('Lắp đặt máy lạnh mới')">
+                Đặt Dịch Vụ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 3: Reinstalling / Relocation -->
+        <article class="service-card" data-category="reinstall">
+          <div class="service-card-banner">
+            <img src="assets/images/openning.jpg" alt="Tháo dỡ và di chuyển di dời máy lạnh an toàn không mất gas"
+              loading="lazy">
+            <div class="service-card-banner-icon" aria-hidden="true">
+              <!-- Move / Refresh SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 2v6h-6"></path>
+                <path d="M3 12a9 9 0 0 1 15-6.7L21 8"></path>
+                <path d="M3 22v-6h6"></path>
+                <path d="M21 12a9 9 0 0 1-15 6.7L3 16"></path>
+              </svg>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-category-tag">Tháo Dỡ & Di Dời</span>
+            <h3 class="service-title">Tháo Lắp & Di Dời Máy Lạnh</h3>
+            <p class="service-excerpt">
+              Khóa gas an toàn 100% về block, tránh hao hụt môi chất lạnh. Đóng gói cẩn thận, vận chuyển an toàn và lắp
+              ráp tại vị trí mới.
+            </p>
+            <ul class="service-checklist">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Thu hồi và khóa gas 100% trước khi tháo
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Tháo dàn nóng, dàn lạnh, ống đồng gọn gàng
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Hỗ trợ vận chuyển sang địa chỉ mới trong ngày
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Lắp đặt hoàn thiện và test máy chạy êm
+              </li>
+            </ul>
+            <div class="service-card-footer">
+              <div class="service-price-block">
+                <span class="service-price-label">Trọn gói tháo & lắp từ</span>
+                <div>
+                  <span class="service-price-amount">450.000₫</span>
+                  <span class="service-price-unit">/máy</span>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="openBookingModal('Tháo lắp di dời máy lạnh')">
+                Đặt Dịch Vụ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 4: Repairing -->
+        <article class="service-card" data-category="repair">
+          <div class="service-card-banner">
+            <img src="assets/images/checking.jpg" alt="Kỹ thuật viên đang kiểm tra và sửa chữa bo mạch máy lạnh"
+              loading="lazy">
+            <div class="service-card-banner-icon" aria-hidden="true">
+              <!-- Gauge / Activity SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+              </svg>
+            </div>
+            <span class="service-badge-popular">Cứu Hộ Nhanh 30P</span>
+          </div>
+          <div class="service-card-body">
+            <span class="service-category-tag">Khắc Phục Sự Cố</span>
+            <h3 class="service-title">Sửa Chữa Máy Lạnh Tận Nơi</h3>
+            <p class="service-excerpt">
+              Khắc phục mọi sự cố máy lạnh không mát, chảy nước, chớp đèn lỗi bo mạch, kêu to, xì dàn. Thay thế linh
+              kiện chính hãng 100%.
+            </p>
+            <ul class="service-checklist">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Xử lý máy chảy nước vào tường trong 20 phút
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Sửa bo mạch Inverter Daikin, Panasonic, LG, v.v.
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Hàn khắc phục điểm xì dàn nóng & dàn lạnh
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Linh kiện chính hãng có tem bảo hành 6 - 12T
+              </li>
+            </ul>
+            <div class="service-card-footer">
+              <div class="service-price-block">
+                <span class="service-price-label">Khảo sát & sửa từ</span>
+                <div>
+                  <span class="service-price-amount">150.000₫</span>
+                  <span class="service-price-unit">/lần kiểm tra</span>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="openBookingModal('Sửa chữa máy lạnh')">
+                Đặt Dịch Vụ
+              </button>
+            </div>
+          </div>
+        </article>
+
+        <!-- Service 5: Gas Refill -->
+        <article class="service-card" data-category="gas">
+          <div class="service-card-banner">
+            <img src="assets/images/measuringgas.jpg" alt="Nạp bơm gas máy lạnh R32 R410A chính hãng" loading="lazy">
+            <div class="service-card-banner-icon" aria-hidden="true">
+              <!-- Flame / Gas SVG -->
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path
+                  d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z">
+                </path>
+              </svg>
+            </div>
+          </div>
+          <div class="service-card-body">
+            <span class="service-category-tag">Kiểm Tra Nạp Gas</span>
+            <h3 class="service-title">Bơm Gas Máy Lạnh R32 / R410A / R22</h3>
+            <p class="service-excerpt">
+              Đo lường áp suất bằng đồng hồ kỹ thuật số. Nạp đúng định lượng theo bảng thông số kỹ thuật của nhà sản
+              xuất, giúp máy làm lạnh sâu.
+            </p>
+            <ul class="service-checklist">
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Khách hàng kiểm tra bình gas trước khi nạp
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Gas tinh khiết nhập khẩu Ấn Độ / Nhật Bản
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Đo áp suất PSI chuẩn từng dòng máy
+              </li>
+              <li>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <polyline points="20 6 9 17 4 12"></polyline>
+                </svg>
+                Bảo hành rò rỉ van sạc 6 tháng
+              </li>
+            </ul>
+            <div class="service-card-footer">
+              <div class="service-price-block">
+                <span class="service-price-label">Giá nạp bổ sung từ</span>
+                <div>
+                  <span class="service-price-amount">80.000₫</span>
+                  <span class="service-price-unit">/10 PSI</span>
+                </div>
+              </div>
+              <button class="btn btn-primary btn-sm" onclick="openBookingModal('Bơm nạp gas máy lạnh')">
+                Đặt Dịch Vụ
+              </button>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       BEFORE & AFTER INTERACTIVE COMPARISON SLIDER
+       ========================================================================== -->
+  <section class="section compare-section" id="compare">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Thấy Rõ Sự Khác Biệt</span>
+        <h2 class="section-title">Trước & Sau Khi Vệ Sinh Chuyên Sâu</h2>
+        <p class="section-subtitle">
+          Kéo thanh trượt để so sánh dàn lạnh bám bụi nấm mốc và sau khi được xử lý bằng hóa chất khử khuẩn chuyên dụng
+          của AirCool Pro.
+        </p>
+      </div>
+
+      <div class="compare-box">
+        <div class="compare-container" id="compareContainer">
+          <!-- Before: dirty image simulation -->
+          <img src="assets/images/dirtycoil3.jpg" alt="Dàn lạnh bụi bẩn trước khi bảo dưỡng" class="compare-img before">
+          <span class="compare-badge before-badge">Trước: Bụi Bẩn & Nấm Mốc</span>
+
+          <!-- After: crisp sparkling clean image -->
+          <img src="assets/images/cleanning.jpg" alt="Dàn lạnh sáng bóng sạch khuẩn sau khi vệ sinh"
+            class="compare-img after" id="compareAfterImg">
+          <span class="compare-badge after-badge">Sau: Sạch Khuẩn 99.9%</span>
+
+          <!-- Draggable slider controller -->
+          <div class="compare-slider-control" id="compareSlider" role="slider" aria-valuenow="50" aria-valuemin="0"
+            aria-valuemax="100" aria-label="Thanh trượt so sánh trước và sau">
+            <div class="compare-handle" aria-hidden="true">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+              </svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                stroke-linecap="round" stroke-linejoin="round" style="margin-left:-8px;">
+                <polyline points="9 18 15 12 9 6"></polyline>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="compare-footer-info">
+          <div style="display:flex; align-items:center; gap:12px;">
+            <!-- Checkmark in shield -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#16a34a" stroke-width="2"
+              stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+              <polyline points="9 12 11 14 15 10"></polyline>
+            </svg>
+            <span style="font-size:0.95rem; font-weight:600; color:var(--color-text);">Tăng 40% hiệu suất làm mát, tiết
+              kiệm điện ngay sau khi vệ sinh</span>
+          </div>
+          <button class="btn btn-cta btn-sm" onclick="openBookingModal('Vệ sinh chuyên sâu')">
+            Đặt Lịch Vệ Sinh Ngay
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       INTERACTIVE INSTANT COST CALCULATOR
+       ========================================================================== -->
+  <section class="section" id="calculator">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Dự Toán Chi Phí Minh Bạch</span>
+        <h2 class="section-title">Công Cụ Ước Tính Giá Dịch Vụ Tức Thì</h2>
+        <p class="section-subtitle">
+          Chọn loại máy lạnh, dịch vụ cần làm và số lượng để hệ thống tính toán chi phí dự kiến chính xác, không lo bị
+          kê giá.
+        </p>
+      </div>
+
+      <div class="calculator-card">
+        <div class="calc-grid">
+          <div class="calc-controls">
+
+            <!-- AC Type Selector -->
+            <div class="calc-form-group">
+              <label class="calc-label">1. Loại Máy Lạnh Của Bạn</label>
+              <div class="calc-options-grid">
+                <label class="calc-pill-label">
+                  <input type="radio" name="acType" value="wall" checked onchange="calculateTotal()">
+                  <!-- AC icon -->
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="10" rx="2"></rect>
+                    <line x1="6" y1="13" x2="18" y2="13"></line>
+                  </svg>
+                  Treo Tường (1 - 2.5 HP)
+                </label>
+                <label class="calc-pill-label">
+                  <input type="radio" name="acType" value="ceiling" onchange="calculateTotal()">
+                  <!-- Ceiling icon -->
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="3" y="3" width="18" height="18" rx="2"></rect>
+                    <circle cx="12" cy="12" r="4"></circle>
+                  </svg>
+                  Âm Trần / Cassette
+                </label>
+              </div>
+            </div>
+
+            <!-- Service Type Selector -->
+            <div class="calc-form-group">
+              <label class="calc-label">2. Dịch Vụ Cần Thực Hiện</label>
+              <div class="calc-options-grid">
+                <label class="calc-pill-label">
+                  <input type="radio" name="calcService" value="clean" checked onchange="calculateTotal()">
+                  Vệ Sinh Toàn Diện
+                </label>
+                <label class="calc-pill-label">
+                  <input type="radio" name="calcService" value="install" onchange="calculateTotal()">
+                  Lắp Đặt Máy Mới
+                </label>
+                <label class="calc-pill-label">
+                  <input type="radio" name="calcService" value="reinstall" onchange="calculateTotal()">
+                  Tháo & Di Dời
+                </label>
+                <label class="calc-pill-label">
+                  <input type="radio" name="calcService" value="repair" onchange="calculateTotal()">
+                  Khảo Sát Sửa Chữa
+                </label>
+              </div>
+            </div>
+
+            <!-- Optional Gas Add-on -->
+            <div class="calc-form-group">
+              <label class="calc-label">3. Tùy Chọn Thêm (Nạp gas bổ sung)</label>
+              <div style="display:flex; gap:16px; align-items:center;">
+                <label style="display:flex; align-items:center; gap:8px; cursor:pointer; font-size:0.92rem;">
+                  <input type="checkbox" id="addGasCheck" onchange="calculateTotal()"
+                    style="width:18px; height:18px; accent-color:var(--color-primary);">
+                  Bơm thêm gas tinh khiết (+80.000₫ / 10 PSI)
+                </label>
+              </div>
+            </div>
+
+            <!-- Quantity Selector -->
+            <div class="calc-form-group">
+              <label class="calc-label">4. Số Lượng Máy</label>
+              <div class="calc-quantity-wrapper">
+                <button type="button" class="qty-btn" onclick="changeQuantity(-1)" aria-label="Giảm 1 máy">-</button>
+                <span class="qty-display" id="qtyDisplay">1</span>
+                <button type="button" class="qty-btn" onclick="changeQuantity(1)" aria-label="Tăng 1 máy">+</button>
+                <span style="font-size:0.85rem; color:var(--color-text-muted);">(Giảm 10% từ 3 máy trở lên)</span>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Summary Box -->
+          <div class="calc-summary-box">
+            <h3 class="calc-summary-title">Bản Dự Tính Chi Phí</h3>
+            <div class="calc-summary-row">
+              <span>Đơn vị tính:</span>
+              <strong id="summaryType">Treo Tường</strong>
+            </div>
+            <div class="calc-summary-row">
+              <span>Dịch vụ:</span>
+              <strong id="summaryService">Vệ Sinh Toàn Diện</strong>
+            </div>
+            <div class="calc-summary-row">
+              <span>Số lượng máy:</span>
+              <strong id="summaryQty">1 máy</strong>
+            </div>
+            <div class="calc-summary-row" id="discountRow" style="display:none; color:#86efac;">
+              <span>Ưu đãi số lượng (10%):</span>
+              <strong id="summaryDiscount">-0₫</strong>
+            </div>
+
+            <div class="calc-total-row">
+              <div>
+                <span class="calc-total-label">Tổng Chi Phí Ước Tính</span>
+                <div style="font-size:0.75rem; color:#bae6fd;">(Đã gồm công thợ + đồ nghề)</div>
+              </div>
+              <div class="calc-total-price" id="totalPriceDisplay">150.000₫</div>
+            </div>
+
+            <p class="calc-note">
+              * Giá mang tính tham khảo minh bạch, kỹ thuật viên sẽ xác nhận chính xác sau khi kiểm tra hiện trường
+              trước khi làm.
+            </p>
+
+            <button class="btn btn-cta" style="width:100%;" onclick="openBookingFromCalculator()">
+              Đặt Lịch Dịch Vụ Theo Giá Này
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       5-STAR PROFESSIONAL PROCESS SECTION
+       ========================================================================== -->
+  <section class="section" id="process" style="background-color:#ffffff;">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Tiêu Chuẩn Kỹ Thuật</span>
+        <h2 class="section-title">Quy Trình Phục Vụ Chuẩn 5 Sao</h2>
+        <p class="section-subtitle">
+          Chúng tôi mang đến sự an tâm tuyệt đối qua quy trình 5 bước minh bạch, sạch sẽ và chuyên nghiệp từ khâu đón
+          nhận đến bàn giao.
+        </p>
+      </div>
+
+      <div class="process-timeline">
+        <!-- Step 1 -->
+        <div class="process-card">
+          <div class="process-step-num">1</div>
+          <div class="process-icon-wrap" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="process-card-title">Tiếp Nhận & Điều Phối</h3>
+          <p class="process-card-desc">
+            Nhận thông tin qua website hoặc hotline. Điều phối thợ gần khu vực bạn nhất ngay lập tức.
+          </p>
+        </div>
+
+
+
+        <!-- Step 3 -->
+        <div class="process-card">
+          <div class="process-step-num">2</div>
+          <div class="process-icon-wrap" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+              <polyline points="14 2 14 8 20 8"></polyline>
+              <line x1="16" y1="13" x2="8" y2="13"></line>
+              <line x1="16" y1="17" x2="8" y2="17"></line>
+            </svg>
+          </div>
+          <h3 class="process-card-title">Khảo Sát & Báo Giá</h3>
+          <p class="process-card-desc">
+            Kiểm tra hiện trạng máy, đo áp suất gas, đưa ra phương án tối ưu và báo giá chuẩn trước khi làm.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-card">
+          <div class="process-step-num">3</div>
+          <div class="process-icon-wrap" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+              </path>
+            </svg>
+          </div>
+          <h3 class="process-card-title">Thi Công Chuẩn Xác</h3>
+          <p class="process-card-desc">
+            Vệ sinh, tháo lắp hoặc sửa chữa tỉ mỉ. Che chắn sạch sẽ đồ đạc, không làm vấy bẩn không gian sống.
+          </p>
+        </div>
+
+        <!-- Step 4 -->
+        <div class="process-card">
+          <div class="process-step-num">4</div>
+          <div class="process-icon-wrap" aria-hidden="true">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <h3 class="process-card-title">Bàn Giao & Bảo Hành</h3>
+          <p class="process-card-desc">
+            Cho máy vận hành thử, khách hàng nghiệm thu hài lòng mới thanh toán và nhận phiếu bảo hành điện tử.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PRICING PACKAGES
+       ========================================================================== -->
+  <section class="section" id="pricing">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Bảng Giá Dịch Vụ</span>
+        <h2 class="section-title">Gói Dịch Vụ Tiết Kiệm & Minh Bạch</h2>
+        <p class="section-subtitle">
+          Không phát sinh chi phí ẩn. Cam kết hoàn tiền 100% nếu quý khách không hài lòng về chất lượng.
+        </p>
+      </div>
+
+      <div class="pricing-grid">
+        <!-- Standard -->
+        <div class="pricing-card">
+          <h3 class="pricing-name">Vệ Sinh Tiêu Chuẩn</h3>
+          <p class="pricing-desc">Phù hợp cho máy bảo dưỡng định kỳ 4-6 tháng</p>
+          <div class="pricing-price-wrap">
+            <span class="pricing-amount">200.000₫</span>
+            <span class="pricing-unit">/máy treo tường</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Xịt rửa dàn lạnh và quạt lồng sóc
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Xịt dàn nóng bằng bơm áp lực
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Thông ống thoát nước máy lạnh
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Kiểm tra áp suất gas & dòng điện
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Bảo hành chảy nước 30 ngày
+            </li>
+          </ul>
+          <button class="btn btn-outline" onclick="openBookingModal('Gói Vệ Sinh Tiêu Chuẩn')">Chọn Gói Này</button>
+        </div>
+
+        <!-- Deep Clean Pro (Featured) -->
+        <div class="pricing-card featured">
+          <span class="pricing-tag">Phổ Biến Nhất</span>
+          <h3 class="pricing-name">Chuyên Sâu Khử Khuẩn</h3>
+          <p class="pricing-desc">Phù hợp gia đình có trẻ nhỏ, người già hoặc máy lâu năm</p>
+          <div class="pricing-price-wrap">
+            <span class="pricing-amount">350.000₫</span>
+            <span class="pricing-unit">/máy treo tường</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Bao gồm toàn bộ gói Tiêu Chuẩn
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Phun hóa chất diệt khuẩn nấm mốc chuyên sâu
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Khử mùi hôi bằng hơi nước nóng nhiệt cao
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Tặng nạp bổ sung gas tới 15 PSI
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Bảo hành chảy nước & làm lạnh 90 ngày
+            </li>
+          </ul>
+          <button class="btn btn-cta" onclick="openBookingModal('Gói Khử Khuẩn Chuyên Sâu')">Đặt Gói Này Ngay</button>
+        </div>
+
+        <!-- Tháo Lắp Di Dời -->
+        <div class="pricing-card">
+          <h3 class="pricing-name">Tháo Lắp & Di Dời Trọn Gói</h3>
+          <p class="pricing-desc">Cho khách chuyển nhà, chuyển văn phòng, thay đổi vị trí</p>
+          <div class="pricing-price-wrap">
+            <span class="pricing-amount">450.000₫</span>
+            <span class="pricing-unit">/bộ máy</span>
+          </div>
+          <ul class="pricing-features">
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Khóa gas an toàn 100% không hao hụt
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Tháo gỡ dàn nóng, dàn lạnh, ống đồng
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Lắp đặt hoàn thiện tại vị trí mới
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Hút chân không đường ống kỹ thuật
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+                <polyline points="20 6 9 17 4 12"></polyline>
+              </svg>
+              Bảo hành lắp đặt 6 tháng
+            </li>
+          </ul>
+          <button class="btn btn-outline" onclick="openBookingModal('Gói Tháo Lắp Di Dời')">Chọn Gói Này</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TRUST & COMMITMENTS (4 GOLDEN RULES)
+       ========================================================================== -->
+  <section class="section"
+    style="background-color:#ffffff; border-top:1px solid var(--color-border); border-bottom:1px solid var(--color-border);">
+    <div class="container">
+      <div class="commitments-grid">
+        <div class="commitment-card">
+          <div class="commitment-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+            </svg>
+          </div>
+          <div class="commitment-content">
+            <h4>Bảo Hành Tới 12 Tháng</h4>
+            <p>Có tem và phiếu bảo hành điện tử chính xác, gọi là thợ tới ngay không đùn đẩy trách nhiệm.</p>
+          </div>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="12" y1="1" x2="12" y2="23"></line>
+              <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
+            </svg>
+          </div>
+          <div class="commitment-content">
+            <h4>100% Giá Niêm Yết</h4>
+            <p>Tuyệt đối không vẽ vời phát sinh. Báo giá công khai rõ ràng trước khi chạm vào máy.</p>
+          </div>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polygon points="13 2 3 14 12 14 11 22 21 10 12 10 13 2"></polygon>
+            </svg>
+          </div>
+          <div class="commitment-content">
+            <h4>Tốc Độ Sau 30 Phút</h4>
+            <p>Mạng lưới thợ phủ rộng khắp các quận huyện, có mặt nhanh chóng giải quyết cái nóng nực ngay.</p>
+          </div>
+        </div>
+
+        <div class="commitment-card">
+          <div class="commitment-icon" aria-hidden="true">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+              <polyline points="22 4 12 14.01 9 11.01"></polyline>
+            </svg>
+          </div>
+          <div class="commitment-content">
+            <h4>Linh Kiện Chính Hãng</h4>
+            <p>Sử dụng phụ tùng và gas tinh khiết nhập khẩu, tương thích 100% với từng dòng máy lạnh.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TESTIMONIALS & REVIEWS
+       ========================================================================== -->
+  <section class="section" id="reviews">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Đánh Giá Từ Khách Hàng</span>
+        <h2 class="section-title">Hơn 28.000 Gia Đình Đã Tin Tưởng</h2>
+        <p class="section-subtitle">
+          Sự hài lòng của khách hàng là thước đo uy tín lớn nhất của đội ngũ kỹ thuật viên AirCool Pro.
+        </p>
+      </div>
+
+      <div class="reviews-grid">
+        <div class="review-card">
+          <div>
+            <div class="review-stars" aria-label="Đánh giá 5 sao">
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <p class="review-quote">
+              "Thợ đến rất đúng hẹn, mang bọc máng xịt nước cực kỳ cẩn thận không bị bắn một giọt nào ra sàn gỗ của tôi.
+              Máy vệ sinh xong thổi gió mát lạnh và thơm mát hẳn. Rất ưng ý!"
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">TH</div>
+            <div class="review-meta">
+              <h5>Anh Trần Hoàng</h5>
+              <p>Chung cư Vinhomes Central Park</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars" aria-label="Đánh giá 5 sao">
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <p class="review-quote">
+              "Máy lạnh nhà mình bị chảy nước ướt cả góc phòng ngủ giữa trưa nắng. Gọi AirCool Pro đúng 25 phút là bạn
+              thợ đã có mặt, thông ống và kiểm tra gas rất tận tình, giá đúng 150k niêm yết."
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">ML</div>
+            <div class="review-meta">
+              <h5>Chị Mai Linh</h5>
+              <p>Nhà phố Quận 7</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="review-card">
+          <div>
+            <div class="review-stars" aria-label="Đánh giá 5 sao">
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+              <svg viewBox="0 0 24 24">
+                <polygon
+                  points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                </polygon>
+              </svg>
+            </div>
+            <p class="review-quote">
+              "Công ty mình di dời 6 bộ máy lạnh văn phòng. Bên này làm việc chuyên nghiệp, có hợp đồng xuất hóa đơn đỏ
+              đầy đủ, khóa gas chuẩn không bị mất gas xíu nào. Sẽ tiếp tục ủng hộ lâu dài."
+            </p>
+          </div>
+          <div class="review-author">
+            <div class="review-avatar">QD</div>
+            <div class="review-meta">
+              <h5>Anh Quốc Dũng</h5>
+              <p>Giám Đốc TechHub Solution</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FAQ ACCORDION
+       ========================================================================== -->
+  <section class="section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Giải Đáp Thắc Mắc</span>
+        <h2 class="section-title">Câu Hỏi Thường Gặp</h2>
+        <p class="section-subtitle">
+          Những giải đáp thiết thực nhất về thời gian, chi phí và cách duy trì độ bền máy lạnh của bạn.
+        </p>
+      </div>
+
+      <div class="faq-list">
+        <!-- Q1 -->
+        <div class="faq-item open">
+          <button class="faq-question" aria-expanded="true">
+            <span>Bao lâu gia đình nên vệ sinh bảo dưỡng máy lạnh một lần?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            Đối với hộ gia đình sử dụng thường xuyên (khoảng 6-8 tiếng/ngày), chu kỳ lý tưởng là <strong>3 - 4
+              tháng/lần</strong>. Đối với văn phòng công ty là <strong>2 - 3 tháng/lần</strong>, và môi trường nhiều bụi
+            bẩn như quán ăn, xưởng sản xuất là <strong>1 - 2 tháng/lần</strong> để giữ không khí trong lành và tiết kiệm
+            điện năng.
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Khi tháo dỡ và di dời máy lạnh có bị mất gas không?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            Hoàn toàn <strong>KHÔNG</strong>. Trước khi tháo máy, kỹ thuật viên AirCool Pro sẽ bật máy chạy và tiến hành
+            khóa van gas hồi, thu hồi 100% lượng gas về block nén an toàn trước khi siết chặt van khóa. Sau khi lắp đặt
+            lại tại vị trí mới sẽ hút chân không và xả gas hoạt động bình thường mà không hao hụt.
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Tại sao máy lạnh vẫn chạy vù vù nhưng phòng không mát?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            Các nguyên nhân phổ biến nhất gồm: dàn lạnh hoặc lưới lọc bị đóng bụi dày cản gió, dàn nóng không tản được
+            nhiệt do bụi bẩn, máy bị thiếu gas/rò rỉ gas ở mối nối, hoặc hỏng tụ quạt/block nén. Bạn chỉ cần đặt lịch
+            kiểm tra, thợ sẽ đo đồng hồ và báo chính xác nguyên nhân sau 10 phút.
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="faq-item">
+          <button class="faq-question" aria-expanded="false">
+            <span>Chính sách bảo hành sau khi sửa chữa hoặc vệ sinh ra sao?</span>
+            <svg class="faq-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </button>
+          <div class="faq-answer">
+            Tất cả dịch vụ của AirCool Pro đều có phiếu bảo hành hoặc lưu số điện thoại điện tử trên hệ thống: Vệ sinh
+            máy được bảo hành chảy nước 30-90 ngày; linh kiện thay thế và sửa chữa mạch được bảo hành từ <strong>6 đến
+              12 tháng</strong>. Nếu có bất kỳ trục trặc nào, chúng tôi sẽ cử kỹ thuật viên xử lý miễn phí trong vòng
+            2-4 tiếng.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       BOTTOM CTA BANNER
+       ========================================================================== -->
+  <section class="container" style="margin-bottom:var(--space-3xl);">
+    <div class="cta-banner">
+      <h2>Máy Lạnh Có Vấn Đề? Đừng Để Nóng Bức Làm Bạn Mệt Mỏi!</h2>
+      <p>
+        Gọi ngay cho chúng tôi hoặc để lại số điện thoại. Đội ngũ kỹ thuật viên lành nghề luôn túc trực phục vụ bạn 24/7
+        kể cả ngày lễ.
+      </p>
+      <div class="cta-banner-buttons">
+        <button class="btn btn-cta btn-lg" onclick="openBookingModal('Tư vấn khẩn cấp')">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          Đặt Lịch Ngay Trong Ngày
+        </button>
+        <a href="https://zalo.me/0968831027" class="btn btn-light btn-lg" target="_blank">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+            <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+          </svg>
+          Nhắn Zalo: 0968.831.027
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <h3>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" stroke-width="2">
+              <line x1="12" y1="2" x2="12" y2="22"></line>
+              <path d="m17 7-5 5-5-5"></path>
+              <path d="m17 17-5-5-5 5"></path>
+              <line x1="2" y1="12" x2="22" y2="12"></line>
+              <path d="m7 7 5 5-5 5"></path>
+              <path d="m17 7-5 5 5 5"></path>
+            </svg>
+            AirCool Pro
+          </h3>
+          <p>
+            Hệ thống điện lạnh gia đình và công nghiệp hàng đầu. Chuyên nghiệp, tận tâm, cam kết chất lượng chuẩn hãng
+            với hơn 10 năm kinh nghiệm trong ngành.
+          </p>
+          <div style="display:flex; gap:10px;">
+            <span
+              style="font-size:0.8rem; background:rgba(255,255,255,0.1); padding:4px 10px; border-radius:4px; color:#e0f2fe;">ISO
+              9001:2015</span>
+            <span
+              style="font-size:0.8rem; background:rgba(255,255,255,0.1); padding:4px 10px; border-radius:4px; color:#e0f2fe;">Chứng
+              Nhận Hãng</span>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Dịch Vụ Nổi Bật</h4>
+          <ul class="footer-links">
+            <li><a href="#services" onclick="filterServices('cleaning')">Vệ Sinh Máy Lạnh Treo Tường</a></li>
+            <li><a href="#services" onclick="filterServices('cleaning')">Vệ Sinh Máy Lạnh Âm Trần</a></li>
+            <li><a href="#services" onclick="filterServices('install')">Lắp Đặt Máy Lạnh Mới</a></li>
+            <li><a href="#services" onclick="filterServices('reinstall')">Tháo Dỡ & Di Dời Nhà Xưởng</a></li>
+            <li><a href="#services" onclick="filterServices('repair')">Sửa Máy Lạnh Không Lạnh</a></li>
+            <li><a href="#services" onclick="filterServices('gas')">Bơm Nạp Gas R32/R410A</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Khu Vực Phục Vụ</h4>
+          <ul class="footer-links">
+            <li><a href="#">Quận 1, Quận 3, Quận 5</a></li>
+            <li><a href="#">Quận 7, Nhà Bè, Bình Chánh</a></li>
+            <li><a href="#">Thủ Đức, Quận 2, Quận 9</a></li>
+            <li><a href="#">Bình Thạnh, Phú Nhuận, Gò Vấp</a></li>
+            <li><a href="#">Tân Bình, Tân Phú, Bình Tân</a></li>
+            <li><a href="#">Các tỉnh lân cận (Hợp đồng)</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Liên Hệ Trực Tiếp</h4>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+              <circle cx="12" cy="10" r="3"></circle>
+            </svg>
+            <span>Trụ sở chính: 128 Nguyễn Trãi, Phường Bến Thành, Quận 1, TP. Hồ Chí Minh</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+            </svg>
+            <span>Hỗ trợ khẩn cấp: <strong><a href="https://zalo.me/0968831027" target="_blank" style="color:inherit; text-decoration:none;">0968.831.027</a></strong> (Zalo)</span>
+          </div>
+          <div class="footer-contact-item">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span>Email hỗ trợ: hotro@aircoolpro.vn</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© 2026 AirCool Pro Services. Bảo lưu mọi quyền. Đã đăng ký bộ công thương.</div>
+        <div style="display:flex; gap:16px;">
+          <a href="#">Chính Sách Bảo Mật</a>
+          <a href="#">Điều Khoản Dịch Vụ</a>
+          <a href="#">Quy Định Bảo Hành</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       INTERACTIVE BOOKING MODAL
+       ========================================================================== -->
+  <div class="modal-overlay" id="bookingModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modalTitle">Đặt Lịch Dịch Vụ Nhanh</h3>
+        <button class="modal-close-btn" onclick="closeBookingModal()" aria-label="Đóng cửa sổ đặt lịch">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="18" y1="6" x2="6" y2="18"></line>
+            <line x1="6" y1="6" x2="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <form id="bookingForm" onsubmit="handleBookingSubmit(event)">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="clientName" class="form-label">Họ và tên của bạn <span class="required">*</span></label>
+              <input type="text" id="clientName" class="form-input" placeholder="Ví dụ: Nguyễn Văn A" required>
+            </div>
+            <div class="form-group">
+              <label for="clientPhone" class="form-label">Số điện thoại liên hệ <span class="required">*</span></label>
+              <input type="tel" id="clientPhone" class="form-input" placeholder="09xx xxx xxx" pattern="[0-9]{10}"
+                required>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="serviceSelect" class="form-label">Dịch vụ quan tâm <span class="required">*</span></label>
+              <select id="serviceSelect" class="form-select" required>
+                <option value="Vệ sinh máy lạnh">Vệ sinh máy lạnh (Khử khuẩn)</option>
+                <option value="Lắp đặt máy lạnh mới">Lắp đặt máy lạnh mới</option>
+                <option value="Tháo lắp di dời máy lạnh">Tháo lắp & Di dời máy lạnh</option>
+                <option value="Sửa chữa máy lạnh">Sửa chữa máy lạnh sự cố</option>
+                <option value="Bơm nạp gas máy lạnh">Bơm nạp bổ sung gas</option>
+                <option value="Bảo dưỡng định kỳ trọn gói">Hợp đồng bảo dưỡng trọn gói</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="appointmentDate" class="form-label">Thời gian mong muốn <span
+                  class="required">*</span></label>
+              <input type="date" id="appointmentDate" class="form-input" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="clientAddress" class="form-label">Địa chỉ phục vụ (Số nhà, Phường, Quận) <span
+                class="required">*</span></label>
+            <input type="text" id="clientAddress" class="form-input"
+              placeholder="Ví dụ: 45/12 Lê Văn Sỹ, Phường 13, Quận 3" required>
+          </div>
+
+          <div class="form-group">
+            <label for="clientNote" class="form-label">Ghi chú tình trạng máy (không bắt buộc)</label>
+            <textarea id="clientNote" class="form-textarea" rows="3"
+              placeholder="Ví dụ: Máy chảy nước ở máng trước, quạt kêu rít, cần thợ mang theo gas..."></textarea>
+          </div>
+
+          <div style="margin-top:var(--space-lg);">
+            <button type="submit" id="submitBtn" class="btn btn-cta" style="width:100%; padding:14px;">
+              <span id="btnText">Xác Nhận Đặt Lịch - Có Mặt Sau 30P</span>
+              <span id="btnLoader" style="display:none;">Đang gửi thông tin...</span>
+            </button>
+            <p style="font-size:0.78rem; text-align:center; color:var(--color-text-muted); margin-top:8px;">
+              🔒 Cam kết bảo mật thông tin, kỹ thuật viên sẽ gọi xác nhận trong 5 phút.
+            </p>
+          </div>
+        </form>
+
+        <!-- Success Message -->
+        <div class="form-success-box" id="successBox">
+          <div class="form-success-icon" aria-hidden="true">
+            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+          </div>
+          <h4 style="font-size:1.4rem; color:var(--color-text); margin-bottom:8px;">Đặt Lịch Thành Công!</h4>
+          <p style="font-size:0.95rem; color:var(--color-text-muted); margin-bottom:var(--space-lg);">
+            Mã lịch hẹn: <strong id="bookingCode" style="color:var(--color-primary);">AC-8924</strong>. Kỹ thuật viên
+            phụ trách khu vực của bạn đang chuẩn bị đồ nghề và sẽ liên hệ trong 5 phút.
+          </p>
+          <button class="btn btn-primary" onclick="closeBookingModal()">Đã Hiểu & Đóng</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FLOATING QUICK ACTION BUTTONS
+       ========================================================================== -->
+  <div class="floating-actions" role="complementary" aria-label="Tác vụ nhanh">
+    <!-- Zalo button -->
+    <a href="https://zalo.me/0968831027" class="fab-btn fab-phone" aria-label="Nhắn Zalo trực tiếp tới hỗ trợ" target="_blank">
+      <span class="fab-tooltip">Zalo 0968.831.027</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+      </svg>
+    </a>
+
+    <!-- Booking button -->
+    <button class="fab-btn fab-booking" onclick="openBookingModal('Tư vấn nhanh')" aria-label="Mở form đặt thợ">
+      <span class="fab-tooltip">Đặt Lịch Hẹn Thợ</span>
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+        <line x1="16" y1="2" x2="16" y2="6"></line>
+        <line x1="8" y1="2" x2="8" y2="6"></line>
+        <line x1="3" y1="10" x2="21" y2="10"></line>
+      </svg>
+    </button>
+
+    <!-- Live Chat button -->
+    <button class="fab-btn fab-chat" id="chatFabBtn" onclick="toggleChatWidget()"
+      aria-label="Mở cửa sổ tư vấn trực tiếp" aria-expanded="false">
+      <span class="fab-tooltip">Tư Vấn Trực Tiếp</span>
+      <span class="chat-unread-dot" id="chatUnreadDot" aria-hidden="true"></span>
+      <!-- Chat bubble icon -->
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+        stroke-linecap="round" stroke-linejoin="round" id="chatIconOpen">
+        <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+      </svg>
+      <!-- X close icon (shown when chat is open) -->
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+        stroke-linecap="round" stroke-linejoin="round" id="chatIconClose" style="display:none">
+        <line x1="18" y1="6" x2="6" y2="18"></line>
+        <line x1="6" y1="6" x2="18" y2="18"></line>
+      </svg>
+    </button>
+  </div>
+
+  <!-- ==========================================================================
+       LIVE CHAT WIDGET
+       ========================================================================== -->
+  <div class="chat-widget" id="chatWidget" role="dialog" aria-label="Cửa sổ tư vấn trực tiếp" aria-hidden="true">
+    <!-- Header -->
+    <div class="chat-header">
+      <div class="chat-agent-info">
+        <div class="chat-agent-avatar" aria-hidden="true">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+        </div>
+        <div>
+          <p class="chat-agent-name">Nhân viên tư vấn</p>
+          <span class="chat-agent-status">
+            <span class="status-dot" aria-hidden="true"></span>Đang trực tuyến
+          </span>
+        </div>
+      </div>
+      <button class="chat-close-btn" onclick="toggleChatWidget()" aria-label="Đóng cửa sổ tư vấn">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <!-- Pre-chat Form -->
+    <div class="chat-preform" id="chatPreform">
+      <h4 style="margin-top:0; margin-bottom:10px; font-size:1.05rem; color:var(--color-text);">👋 Chào mừng bạn!</h4>
+      <p style="font-size:0.9rem; color:var(--color-text-muted); margin-bottom:15px; line-height:1.4;">Vui lòng cho chúng tôi biết thông tin để hỗ trợ bạn tốt nhất nhé.</p>
+      <form id="chatPrechatForm" onsubmit="handlePrechatSubmit(event)">
+        <div class="form-group" style="margin-bottom:12px;">
+          <input type="text" id="chatClientName" class="form-input" placeholder="Tên của bạn *" required style="padding:10px 14px; font-size:0.9rem; border-radius:8px; width:100%;">
+        </div>
+        <div class="form-group" style="margin-bottom:16px;">
+          <input type="tel" id="chatClientPhone" class="form-input" placeholder="Số điện thoại *" pattern="[0-9]{10}" required style="padding:10px 14px; font-size:0.9rem; border-radius:8px; width:100%;">
+        </div>
+        <button type="submit" class="btn btn-cta" style="width:100%; padding:12px; font-size:0.95rem; border-radius:8px;">Bắt đầu Chat</button>
+      </form>
+    </div>
+
+    <!-- Main Chat Content (Hidden initially) -->
+    <div id="chatMainContent" style="display:none; flex-direction:column; flex:1; overflow:hidden;">
+      <!-- Messages area -->
+      <div class="chat-messages" id="chatMessages" role="log" aria-live="polite" aria-atomic="false">
+        <!-- Initial bot greeting message -->
+        <div class="chat-msg chat-msg--agent" id="chatWelcomeMsg">
+          <div class="chat-bubble">
+            Xin chào! 👋 Tôi là nhân viên tư vấn của <strong>AirCool Pro</strong>. Bạn cần hỗ trợ dịch vụ máy lạnh nào?
+          </div>
+          <span class="chat-timestamp">Vừa xong</span>
+        </div>
+
+        <!-- Quick reply suggestions -->
+        <div class="chat-quick-replies" id="chatQuickReplies">
+          <button class="quick-reply-btn" onclick="sendQuickReply('Vệ sinh máy lạnh')">🧊 Vệ sinh máy lạnh</button>
+          <button class="quick-reply-btn" onclick="sendQuickReply('Lắp đặt máy mới')">🔧 Lắp đặt máy mới</button>
+          <button class="quick-reply-btn" onclick="sendQuickReply('Sửa chữa máy lạnh')">⚡ Sửa chữa máy lạnh</button>
+          <button class="quick-reply-btn" onclick="sendQuickReply('Tháo dời máy lạnh')">📦 Tháo dời máy lạnh</button>
+        </div>
+      </div>
+
+      <!-- Input area -->
+      <div class="chat-input-area">
+        <input type="text" id="chatInput" class="chat-input" placeholder="Nhập tin nhắn của bạn..." maxlength="300"
+          autocomplete="off" onkeydown="handleChatKeydown(event)" aria-label="Ô nhập tin nhắn tư vấn">
+        <button class="chat-send-btn" id="chatSendBtn" onclick="sendChatMessage()" aria-label="Gửi tin nhắn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <line x1="22" y1="2" x2="11" y2="13"></line>
+            <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Footer note -->
+      <div class="chat-footer-note">
+        <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="12" cy="12" r="10" />
+          <path d="M12 8v4l3 3" />
+        </svg>
+        Phản hồi trong vòng 2 phút • Hoặc nhắn Zalo <a href="https://zalo.me/0968831027" target="_blank">0968.831.027</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       JAVASCRIPT LOGIC
+       ========================================================================== -->
+  <script src="script.js"></script>
+</body>
+
+</html>
