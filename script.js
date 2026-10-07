@@ -3,7 +3,7 @@
 // ==============================================================================
 
 // [1] Webhook đặt lịch (Booking form)
-const N8N_WEBHOOK_URL = 'https://duytrong.app.n8n.cloud/webhook-test/dat-lich-may-lanh';
+const N8N_WEBHOOK_URL = 'https://duytrong.app.n8n.cloud/webhook/dat-lich-may-lanh';
 
 // [2] Webhook Chat AI — Dán Production URL từ n8n Webhook Node vào đây
 //     Ví dụ: 'https://duytrong.app.n8n.cloud/webhook/chat-ai'
