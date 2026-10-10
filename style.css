@@ -322,10 +322,17 @@
       user-select: none;
     }
 
+    @keyframes ctaPulse {
+      0% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0.4); }
+      70% { box-shadow: 0 0 0 12px rgba(22, 163, 74, 0); }
+      100% { box-shadow: 0 0 0 0 rgba(22, 163, 74, 0); }
+    }
+
     .btn-cta {
       background-color: var(--color-cta);
       color: #ffffff;
       box-shadow: 0 4px 12px rgba(22, 163, 74, 0.25);
+      animation: ctaPulse 2s infinite;
     }
 
     .btn-cta:hover {
