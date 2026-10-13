@@ -3,12 +3,10 @@
 // ==============================================================================
 
 // [1] Webhook đặt lịch (Booking form)
-const N8N_WEBHOOK_URL = 'https://duytrong.app.n8n.cloud/webhook/dat-lich-may-lanh';
+const N8N_WEBHOOK_URL = 'https://trongtrobui.app.n8n.cloud/webhook/dat-lich-may-lanh';
 
 // [2] Webhook Chat AI — Dán Production URL từ n8n Webhook Node vào đây
-//     Ví dụ: 'https://duytrong.app.n8n.cloud/webhook/chat-ai'
-//     Để trống ('') → tự động dùng keyword fallback
-const N8N_CHAT_WEBHOOK_URL = 'https://duytrong.app.n8n.cloud/webhook/chat-ai';
+const N8N_CHAT_WEBHOOK_URL = 'https://trongtrobui.app.n8n.cloud/webhook/chat-ai';
 
 // Set default date for booking picker (Today)
 document.addEventListener('DOMContentLoaded', () => {
@@ -137,9 +135,9 @@ function initBeforeAfterSlider() {
 let currentQty = 1;
 
 const basePrices = {
-  wall: { clean: 200000, install: 400000, reinstall: 450000, repair: 150000 },
-  ceiling: { clean: 850000, install: 1500000, reinstall: 2000000, repair: 150000 },
-  standing: { clean: 400000, install: 700000, reinstall: 850000, repair: 400000 }
+  wall: { clean: 250000, install: 550000, reinstall: 700000, repair: 150000 },
+  ceiling: { clean: 850000, install: 1500000, reinstall: 2250000, repair: 150000 },
+  standing: { clean: 650000, install: 700000, reinstall: 850000, repair: 400000 }
 };
 
 const typeNames = {
@@ -172,7 +170,7 @@ function calculateTotal() {
   const service = serviceRadio ? serviceRadio.value : 'clean';
 
   let unitPrice = basePrices[acType][service];
-  let gasCost = addGas ? 80000 : 0;
+  let gasCost = addGas ? 110000 : 0;
   let subtotal = (unitPrice + gasCost) * currentQty;
 
   // 10% discount for >= 3 AC units
