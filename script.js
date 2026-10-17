@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initFAQAccordion();
   initMobileMenu();
   calculateTotal();
+  initAnalyticsTracking();
 });
 
 /* --------------------------------------------------------------------------
@@ -326,6 +327,16 @@ async function handleBookingSubmit(event) {
   } catch (error) {
     console.error('Không thể kết nối tới n8n Webhook (kiểm tra lại URL hoặc CORS):', error);
   } finally {
+        // [GA4 Tracking] Ghi nhận chuyển đổi Đặt Lịch thành công
+    if (typeof window.gtag === 'function') {
+      window.gtag('event', 'generate_lead', {
+        event_category: 'Booking',
+        event_label: bookingPayload.service,
+        value: 1
+      });
+      console.log('GA4: Ghi nhận sự kiện generate_lead thành công');
+    }
+
     // 4. Cập nhật giao diện thành công cho khách hàng
     btn.disabled = false;
     btnText.style.display = 'inline-block';
@@ -721,3 +732,47 @@ function toggleChatWidget() {
   }
 }
 
+
+
+/* --------------------------------------------------------------------------
+   Google Analytics 4 (GA4) Custom Event Tracking
+   -------------------------------------------------------------------------- */
+function initAnalyticsTracking() {
+  // 1. Theo dõi click gọi Hotline
+  document.querySelectorAll('a[href^="tel:"]').forEach(link => {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'contact', {
+          event_category: 'Engagement',
+          event_label: 'Click Gọi Hotline: ' + this.getAttribute('href'),
+          contact_method: 'phone'
+        });
+      }
+    });
+  });
+
+  // 2. Theo dõi click nhắn Zalo
+  document.querySelectorAll('a[href*="zalo.me"]').forEach(link => {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'contact', {
+          event_category: 'Engagement',
+          event_label: 'Click Nhắn Zalo',
+          contact_method: 'zalo'
+        });
+      }
+    });
+  });
+
+  // 3. Theo dõi click đọc bài viết Cẩm Nang từ Trang Chủ
+  document.querySelectorAll('.blog-card a, .service-card a[href$=".html"]').forEach(link => {
+    link.addEventListener('click', function () {
+      if (typeof window.gtag === 'function') {
+        window.gtag('event', 'select_content', {
+          content_type: 'blog_internal_link',
+          item_id: this.getAttribute('href')
+        });
+      }
+    });
+  });
+}
