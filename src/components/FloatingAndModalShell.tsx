@@ -2,8 +2,8 @@
 
 import React, { useEffect, useState, useRef } from "react";
 
-const N8N_WEBHOOK_URL = "https://trongtrobui.app.n8n.cloud/webhook/dat-lich-may-lanh";
-const N8N_CHAT_WEBHOOK_URL = "https://trongtrobui.app.n8n.cloud/webhook/chat-ai";
+const N8N_WEBHOOK_URL = "https://duytrongtoeic.app.n8n.cloud/webhook/dat-lich-may-lanh";
+const N8N_CHAT_WEBHOOK_URL = "https://duytrongtoeic.app.n8n.cloud/webhook/chat-ai";
 
 const HANDOFF_KEYWORDS = [
   "khiếu nại", "khieu nai", "phàn nàn", "không hài lòng", "thất vọng",
