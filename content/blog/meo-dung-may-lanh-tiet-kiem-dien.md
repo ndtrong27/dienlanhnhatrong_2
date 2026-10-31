@@ -57,3 +57,4 @@ Lớp bụi dày bám trên lưới lọc và dàn tản nhiệt là "kẻ trộ
 ## 7. Hẹn giờ tắt máy lạnh trước khi thức dậy 30 phút
 
 Trước khi dậy đi làm khoảng 30 – 45 phút, độ lạnh trong phòng kín vẫn được giữ lại rất tốt. Bạn hãy cài đặt tính năng Timer Off để máy tự ngắt sớm. Khoảng thời gian này vừa đủ để phòng mát mẻ, cơ thể thích nghi dần với nhiệt độ môi trường bên ngoài mà lại tiết kiệm được một lượng điện đáng kể mỗi ngày.
+

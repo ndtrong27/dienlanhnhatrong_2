@@ -65,3 +65,4 @@ export function getPostBySlug(slug: string): BlogPost | undefined {
   const posts = getAllPosts();
   return posts.find((post) => post.slug === cleanSlug);
 }
+

@@ -41,3 +41,4 @@ Dàn nóng đặt ngoài ban công hoặc trên mái nhà phải chịu nắng m
 ## 5. Hóa đơn tiền điện tăng vọt
 
 Nếu tiền điện tháng này của bạn tăng gấp đôi, gấp ba dù thời gian sử dụng máy không đổi, thì thủ phạm chính là chiếc máy lạnh bị bẩn. Máy bẩn phải làm việc liên tục (không thể tự ngắt) để đạt được nhiệt độ yêu cầu, gây ngốn điện khủng khiếp.
+

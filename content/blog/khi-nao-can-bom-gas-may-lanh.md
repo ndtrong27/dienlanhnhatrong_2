@@ -64,3 +64,4 @@ Tại **AirCool Pro**, chúng tôi tuân thủ đạo đức nghề nghiệp và
   <h4 style="margin-top:0; color:#0f766e;">Cam Kết Minh Bạch Tại AirCool Pro:</h4>
   <p style="margin-bottom:0;">Thợ chỉ nạp gas khi có sự đồng ý của khách hàng sau khi kiểm tra đồng hồ. Báo giá công khai trọn gói, tuyệt đối không vẽ vời, bảo hành đường hàn và nạp gas từ 6 - 12 tháng. Bạn có thể tra cứu chi phí công khai tại <a href="/?utm_source=blog&utm_medium=contextual_link&utm_campaign=bom_gas#services" style="color:#0f766e; font-weight:700; text-decoration:underline;">Dịch vụ nạp gas & sửa máy lạnh chuẩn hãng</a> hoặc tham khảo <a href="/?utm_source=blog&utm_medium=contextual_link&utm_campaign=bom_gas#calculator" style="color:#0f766e; font-weight:700; text-decoration:underline;">bảng dự toán chi phí dịch vụ</a> tại trang chủ của chúng tôi.</p>
 </div>
+
