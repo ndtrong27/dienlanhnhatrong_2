@@ -5,8 +5,8 @@ description: "Tổng hợp 7 bí quyết sử dụng máy lạnh liên tục c�
 category: "Mẹo Tiết Kiệm Điện"
 date: "2026-10-12"
 dateFormatted: "12 Tháng 10, 2026"
-coverImage: "/assets/images/firstimage.jpg"
-coverAlt: "Tiết kiệm điện máy lạnh"
+coverImage: "/assets/images/canva-tiet-kiem-dien.jpg"
+coverAlt: "Mẹo dùng máy lạnh tiết kiệm điện mùa nóng - AirCool Pro"
 excerpt: "Bật máy lạnh ở nhiệt độ nào là tốt nhất? Có nên dùng thêm quạt? Tổng hợp những bí kíp giúp hóa đơn tiền điện nhà bạn giảm đáng kể trong mùa nóng."
 ctaHeading: "Máy lạnh nhà bạn làm lạnh yếu, chạy ồn hoặc tốn điện?"
 ctaSubheading: "Hãy để đội ngũ chuyên viên AirCool Pro kiểm tra tổng thể, vệ sinh xịt rửa chuyên sâu và tối ưu hóa hệ thống làm lạnh giúp máy chạy êm ru như mới!"
@@ -15,7 +15,7 @@ ctaButtonText: "Nhắn Zalo Tư Vấn Tiết Kiệm Điện: 0968.831.027"
 
 Vào những đợt nắng nóng đỉnh điểm ở TP.HCM và khu vực Thủ Đức, chiếc máy lạnh gần như phải hoạt động suốt 24/7. Hậu quả đi kèm là hóa đơn tiền điện cuối tháng có thể tăng vọt lên gấp đôi, gấp ba khiến nhiều gia đình "đứng ngồi không yên". Tuy nhiên, nếu bạn biết áp dụng đúng **7 nguyên tắc kỹ thuật** dưới đây, bạn hoàn toàn có thể tận hưởng không gian mát rượi cả ngày lẫn đêm mà tiền điện chỉ tăng rất nhẹ!
 
-<img src="/assets/images/firstimage.jpg" alt="Sử dụng máy lạnh thông minh giúp tiết kiệm điện năng đáng kể" loading="lazy" />
+<img src="/assets/images/ac_hero.jpg" alt="Sử dụng máy lạnh thông minh ở chế độ 26°C - 28°C giúp tiết kiệm điện năng đáng kể" loading="lazy" />
 
 ## 1. Cài đặt "nhiệt độ vàng" từ 26°C – 28°C
 

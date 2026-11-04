@@ -5,8 +5,8 @@ description: "Khám phá dịch vụ vệ sinh máy lạnh tại Thủ Đức c�
 category: "Cẩm Nang"
 date: "2026-11-02"
 dateFormatted: "02/11/2026"
-coverImage: "/assets/images/cleanning.jpg"
-coverAlt: "Dịch vụ vệ sinh máy lạnh chuyên nghiệp tại AirCool Pro"
+coverImage: "/assets/images/canva-ve-sinh-may-lanh.jpg"
+coverAlt: "Dịch vụ vệ sinh máy lạnh chuyên sâu tại Thủ Đức - AirCool Pro"
 excerpt: "Dịch vụ vệ sinh máy lạnh tại Thủ Đức của AirCool Pro giúp bảo trì và nâng cao hiệu suất làm lạnh, tiết kiệm điện năng cho gia đình bạn."
 ctaHeading: "Đặt lịch vệ sinh máy lạnh ngay hôm nay!"
 ctaSubheading: "Giảm ngay 10% khi làm từ 3 máy trở lên."
@@ -30,6 +30,9 @@ Dưới đây là bảng giá dịch vụ vệ sinh máy lạnh chuyên nghiệp
 
 ## Quy Trình Vệ Sinh Máy Lạnh Tại AirCool Pro
 Khi bạn đặt lịch vệ sinh máy lạnh tại AirCool Pro, chúng tôi sẽ thực hiện theo quy trình chuyên nghiệp như sau:
+
+<img src="/assets/images/ac_cleaning.jpg" alt="Kỹ thuật viên AirCool Pro xịt rửa dàn lạnh bằng máy áp lực có bạt hứng chuyên dụng tại Thủ Đức" loading="lazy" />
+
 1. **Khảo sát và đánh giá tình trạng máy lạnh:** Kỹ thuật viên sẽ kiểm tra tình trạng máy lạnh của bạn trước khi tiến hành vệ sinh.
 2. **Vệ sinh dàn lạnh:** Sử dụng công cụ chuyên dụng để xịt rửa và làm sạch dàn lạnh, lồng sóc quạt và lưới lọc.
 3. **Vệ sinh dàn nóng:** Đảm bảo dàn nóng bên ngoài cũng được làm sạch để tối ưu hóa hiệu suất làm lạnh.

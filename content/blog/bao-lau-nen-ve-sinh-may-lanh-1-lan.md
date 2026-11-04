@@ -5,8 +5,8 @@ description: "Giải đáp chi tiết bao lâu nên vệ sinh máy lạnh 1 lầ
 category: "Cẩm Nang"
 date: "2026-10-31"
 dateFormatted: "31/10/2026"
-coverImage: "/assets/images/cleanning.jpg"
-coverAlt: "Kỹ thuật viên AirCool Pro vệ sinh máy lạnh chuyên sâu tại Thủ Đức"
+coverImage: "/assets/images/canva-chu-ky-ve-sinh.jpg"
+coverAlt: "Chu kỳ vệ sinh máy lạnh định kỳ chuẩn kỹ thuật 3 - 4 tháng/lần tại Thủ Đức - AirCool Pro"
 excerpt: "Khám phá chu kỳ vệ sinh bảo dưỡng máy lạnh chuẩn kỹ thuật (3 - 4 tháng/lần) và bảng giá dịch vụ niêm yết minh bạch của AirCool Pro tại Thủ Đức."
 ctaHeading: "Dịch Vụ Vệ Sinh Máy Lạnh Chuyên Nghiệp Tại Nhà"
 ctaSubheading: "Giá trọn gói niêm yết từ 250.000₫/máy treo tường — Giảm ngay 10% tổng hóa đơn khi làm từ 3 máy trở lên!"
@@ -46,6 +46,8 @@ Tại **AirCool Pro**, 100% chi phí đều được niêm yết minh bạch tr�
 > **Ưu đãi số lượng:** Giảm ngay **10% tổng hóa đơn** khi khách hàng đặt lịch làm từ **3 máy trở lên**! Bạn có thể tự nhẩm tính trước chi phí qua [bảng tính chi phí dịch vụ tự động](/?utm_source=blog&utm_medium=contextual_link&utm_campaign=bao-lau-nen-ve-sinh-may-lanh-1-lan#calculator) ngay trên trang chủ.
 
 ## 4. Quy Trình Vệ Sinh Máy Lạnh Chuyên Nghiệp Bao Gồm Những Gì?
+
+<img src="/assets/images/cleanning.jpg" alt="Kỹ thuật viên AirCool Pro vệ sinh máy lạnh định kỳ 3-4 tháng/lần tại Thủ Đức" loading="lazy" />
 
 Mỗi gói vệ sinh máy lạnh trọn gói (từ **250.000₫/máy** treo tường) của AirCool Pro đều thực hiện đầy đủ 4 hạng mục tiêu chuẩn:
 
